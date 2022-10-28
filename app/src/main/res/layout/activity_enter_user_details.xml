@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".EnterUserDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Enter Customer Details Here"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/CustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:hint="Customer name">
+
+        </EditText>
+        <EditText
+            android:id="@+id/CustomerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="phone"
+            android:background="@color/white"
+            android:hint="Customer Phone Number">
+
+        </EditText>
+        <EditText
+            android:id="@+id/PlantName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:hint="Plant Name">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:hint="select date of planting"
+            android:id="@+id/PlantingDate"
+            android:focusable="false"
+            android:inputType="none">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="select date lastly watered"
+            android:layout_margin="15dp"
+            android:id="@+id/LastlyWatered"
+            android:focusable="false"
+            android:inputType="none"
+            tools:ignore="InvalidId">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="select date lastly sprayed"
+            android:layout_margin="15dp"
+            android:id="@+id/LastlySprayed"
+            android:focusable="false"
+            android:inputType="none">
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="add customer"
+            android:layout_marginTop="20dp"
+            android:id="@+id/addbtn"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

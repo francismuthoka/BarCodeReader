@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084353533033",
+    "project_id": "codereader-ec423",
+    "storage_bucket": "codereader-ec423.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084353533033:android:81a397ace2391b86213ef8",
+        "android_client_info": {
+          "package_name": "com.example.codereader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084353533033-fmm2ptdq7adi4i1pvffq3k15qls6jjj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv72rRwRAdlnbX2heOhyce59NBTGaJnyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084353533033-fmm2ptdq7adi4i1pvffq3k15qls6jjj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
